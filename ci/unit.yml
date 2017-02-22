@@ -8,6 +8,7 @@ image_resource:
 inputs:
 - name: my-product
   path: gopath/src/github.com/cloudfoundry-community/simple-go-web-app
+- name: my-ci
 
 run:
   path: my-ci/ci/task_run_tests.sh
