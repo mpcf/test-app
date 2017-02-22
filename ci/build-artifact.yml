@@ -10,5 +10,8 @@ inputs:
 - name: my-ci
 - name: version
 
+outputs:
+- name: built-artifact
+
 run:
   path: my-ci/ci/build_artifact.sh
