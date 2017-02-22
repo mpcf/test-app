@@ -1,4 +1,4 @@
 #!/bin/sh
 
 ls -l
-tar -cvzf my-product-$(cat version/number).tgz my-product/.
+tar -cvzf built-artifact/my-product-$(cat version/number).tgz my-product
