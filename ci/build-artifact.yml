@@ -9,6 +9,7 @@ inputs:
 - name: my-product
   path: gopath/src/github.com/cloudfoundry-community/simple-go-web-app
 - name: my-ci
+- name: version
 
 run:
   path: my-ci/ci/build_artifact.sh
